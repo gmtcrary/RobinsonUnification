@@ -10,11 +10,20 @@ The [pdfs](http://web.stanford.edu/class/linguist289/robinson65.pdf) avalible [o
 
 ## Dependencies
 
+A working LaTeX distribution which includes `pdflatex` is required. On Debian/Ubuntu systems, the following packages should be sufficient.
+
 To compile the LaTeX document, you need `latexmk`. On Debian/Ubuntu systems, you can install it with:
 
 ```bash
 sudo apt install latexmk
 ```
+
+In addition to latexmk, some additional formatting dependencies these can be installed with:
+
+```bash
+sudo apt install texlive-latex-extra
+```
+
 ## Contributing
 
 Pull requests for typos and other fixes welcome.
